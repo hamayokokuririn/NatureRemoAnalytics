@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2404D82427046B40006883F8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2404D82227046B40006883F8 /* Interface.storyboard */; };
+		2404D82627046B46006883F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2404D82527046B46006883F8 /* Assets.xcassets */; };
+		2404D82C27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2404D82B27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2404D83127046B46006883F8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404D83027046B46006883F8 /* InterfaceController.swift */; };
+		2404D83327046B46006883F8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404D83227046B46006883F8 /* ExtensionDelegate.swift */; };
+		2404D83527046B46006883F8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404D83427046B46006883F8 /* NotificationController.swift */; };
+		2404D83727046B46006883F8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404D83627046B46006883F8 /* ComplicationController.swift */; };
+		2404D83927046B48006883F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2404D83827046B48006883F8 /* Assets.xcassets */; };
+		2404D83E27046B48006883F8 /* NatureRemoAnalyticsForWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2404D82027046B40006883F8 /* NatureRemoAnalyticsForWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		248B096824DE63D6005EA673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B096724DE63D6005EA673 /* AppDelegate.swift */; };
 		248B096A24DE63D6005EA673 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B096924DE63D6005EA673 /* SceneDelegate.swift */; };
 		248B096C24DE63D6005EA673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B096B24DE63D6005EA673 /* ViewController.swift */; };
@@ -27,6 +36,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2404D82D27046B46006883F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248B095C24DE63D6005EA673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2404D82A27046B46006883F8;
+			remoteInfo = "NatureRemoAnalyticsForWatch Extension";
+		};
+		2404D83C27046B48006883F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248B095C24DE63D6005EA673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2404D81F27046B40006883F8;
+			remoteInfo = NatureRemoAnalyticsForWatch;
+		};
 		248B097B24DE63DB005EA673 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 248B095C24DE63D6005EA673 /* Project object */;
@@ -51,6 +74,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2404D83F27046B48006883F8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2404D83E27046B48006883F8 /* NatureRemoAnalyticsForWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2404D84227046B48006883F8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2404D82C27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24C22B0024DEE48A0023744B /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,6 +110,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2404D82027046B40006883F8 /* NatureRemoAnalyticsForWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureRemoAnalyticsForWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2404D82327046B40006883F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2404D82527046B46006883F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2404D82B27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NatureRemoAnalyticsForWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2404D83027046B46006883F8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2404D83227046B46006883F8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2404D83427046B46006883F8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2404D83627046B46006883F8 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2404D83827046B48006883F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2404D83A27046B48006883F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2404D83B27046B48006883F8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		248B096424DE63D6005EA673 /* NatureRemoAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureRemoAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248B096724DE63D6005EA673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248B096924DE63D6005EA673 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +147,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2404D82827046B46006883F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		248B096124DE63D6005EA673 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +187,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2404D82127046B40006883F8 /* NatureRemoAnalyticsForWatch */ = {
+			isa = PBXGroup;
+			children = (
+				2404D82227046B40006883F8 /* Interface.storyboard */,
+				2404D82527046B46006883F8 /* Assets.xcassets */,
+			);
+			path = NatureRemoAnalyticsForWatch;
+			sourceTree = "<group>";
+		};
+		2404D82F27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2404D83027046B46006883F8 /* InterfaceController.swift */,
+				2404D83227046B46006883F8 /* ExtensionDelegate.swift */,
+				2404D83427046B46006883F8 /* NotificationController.swift */,
+				2404D83627046B46006883F8 /* ComplicationController.swift */,
+				2404D83827046B48006883F8 /* Assets.xcassets */,
+				2404D83A27046B48006883F8 /* Info.plist */,
+				2404D83B27046B48006883F8 /* PushNotificationPayload.apns */,
+			);
+			path = "NatureRemoAnalyticsForWatch Extension";
+			sourceTree = "<group>";
+		};
 		248B095B24DE63D6005EA673 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +217,8 @@
 				248B097D24DE63DB005EA673 /* NatureRemoAnalyticsTests */,
 				248B098824DE63DB005EA673 /* NatureRemoAnalyticsUITests */,
 				24C22AF424DEE4840023744B /* NatureRemoWidget */,
+				2404D82127046B40006883F8 /* NatureRemoAnalyticsForWatch */,
+				2404D82F27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension */,
 				24C22AEF24DEE4840023744B /* Frameworks */,
 				248B096524DE63D6005EA673 /* Products */,
 			);
@@ -143,6 +231,8 @@
 				248B097A24DE63DB005EA673 /* NatureRemoAnalyticsTests.xctest */,
 				248B098524DE63DB005EA673 /* NatureRemoAnalyticsUITests.xctest */,
 				24C22AEE24DEE4840023744B /* NatureRemoWidgetExtension.appex */,
+				2404D82027046B40006883F8 /* NatureRemoAnalyticsForWatch.app */,
+				2404D82B27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +294,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2404D81F27046B40006883F8 /* NatureRemoAnalyticsForWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2404D84627046B48006883F8 /* Build configuration list for PBXNativeTarget "NatureRemoAnalyticsForWatch" */;
+			buildPhases = (
+				2404D81E27046B40006883F8 /* Resources */,
+				2404D84227046B48006883F8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2404D82E27046B46006883F8 /* PBXTargetDependency */,
+			);
+			name = NatureRemoAnalyticsForWatch;
+			productName = NatureRemoAnalyticsForWatch;
+			productReference = 2404D82027046B40006883F8 /* NatureRemoAnalyticsForWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2404D82A27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2404D84527046B48006883F8 /* Build configuration list for PBXNativeTarget "NatureRemoAnalyticsForWatch Extension" */;
+			buildPhases = (
+				2404D82727046B46006883F8 /* Sources */,
+				2404D82827046B46006883F8 /* Frameworks */,
+				2404D82927046B46006883F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NatureRemoAnalyticsForWatch Extension";
+			productName = "NatureRemoAnalyticsForWatch Extension";
+			productReference = 2404D82B27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		248B096324DE63D6005EA673 /* NatureRemoAnalytics */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248B098E24DE63DB005EA673 /* Build configuration list for PBXNativeTarget "NatureRemoAnalytics" */;
@@ -212,11 +336,13 @@
 				248B096124DE63D6005EA673 /* Frameworks */,
 				248B096224DE63D6005EA673 /* Resources */,
 				24C22B0024DEE48A0023744B /* Embed App Extensions */,
+				2404D83F27046B48006883F8 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				24C22AFE24DEE48A0023744B /* PBXTargetDependency */,
+				2404D83D27046B48006883F8 /* PBXTargetDependency */,
 			);
 			name = NatureRemoAnalytics;
 			productName = NatureRemoAnalytics;
@@ -282,9 +408,15 @@
 		248B095C24DE63D6005EA673 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					2404D81F27046B40006883F8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2404D82A27046B46006883F8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					248B096324DE63D6005EA673 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -318,11 +450,30 @@
 				248B097924DE63DB005EA673 /* NatureRemoAnalyticsTests */,
 				248B098424DE63DB005EA673 /* NatureRemoAnalyticsUITests */,
 				24C22AED24DEE4840023744B /* NatureRemoWidgetExtension */,
+				2404D81F27046B40006883F8 /* NatureRemoAnalyticsForWatch */,
+				2404D82A27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2404D81E27046B40006883F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2404D82627046B46006883F8 /* Assets.xcassets in Resources */,
+				2404D82427046B40006883F8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2404D82927046B46006883F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2404D83927046B48006883F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		248B096224DE63D6005EA673 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,6 +509,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2404D82727046B46006883F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2404D83527046B46006883F8 /* NotificationController.swift in Sources */,
+				2404D83727046B46006883F8 /* ComplicationController.swift in Sources */,
+				2404D83327046B46006883F8 /* ExtensionDelegate.swift in Sources */,
+				2404D83127046B46006883F8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		248B096024DE63D6005EA673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +561,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2404D82E27046B46006883F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2404D82A27046B46006883F8 /* NatureRemoAnalyticsForWatch Extension */;
+			targetProxy = 2404D82D27046B46006883F8 /* PBXContainerItemProxy */;
+		};
+		2404D83D27046B48006883F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2404D81F27046B40006883F8 /* NatureRemoAnalyticsForWatch */;
+			targetProxy = 2404D83C27046B48006883F8 /* PBXContainerItemProxy */;
+		};
 		248B097C24DE63DB005EA673 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 248B096324DE63D6005EA673 /* NatureRemoAnalytics */;
@@ -417,6 +589,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2404D82227046B40006883F8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2404D82327046B40006883F8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		248B096D24DE63D6005EA673 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +616,118 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2404D84027046B48006883F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = NatureRemoAnalyticsForWatch_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = NatureRemoAnalyticsForWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = saitoh0526.k.NatureRemoAnalytics;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalytics.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		2404D84127046B48006883F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = NatureRemoAnalyticsForWatch_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = NatureRemoAnalyticsForWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = saitoh0526.k.NatureRemoAnalytics;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalytics.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		2404D84327046B48006883F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NatureRemoAnalyticsForWatch Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NatureRemoAnalyticsForWatch Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalytics.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		2404D84427046B48006883F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NatureRemoAnalyticsForWatch Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NatureRemoAnalyticsForWatch Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalytics.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
 		248B098C24DE63DB005EA673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -721,6 +1013,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2404D84527046B48006883F8 /* Build configuration list for PBXNativeTarget "NatureRemoAnalyticsForWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2404D84327046B48006883F8 /* Debug */,
+				2404D84427046B48006883F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2404D84627046B48006883F8 /* Build configuration list for PBXNativeTarget "NatureRemoAnalyticsForWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2404D84027046B48006883F8 /* Debug */,
+				2404D84127046B48006883F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		248B095F24DE63D6005EA673 /* Build configuration list for PBXProject "NatureRemoAnalytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
