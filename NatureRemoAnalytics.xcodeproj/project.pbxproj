@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248B096824DE63D6005EA673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B096724DE63D6005EA673 /* AppDelegate.swift */; };
+		248B096A24DE63D6005EA673 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B096924DE63D6005EA673 /* SceneDelegate.swift */; };
+		248B096C24DE63D6005EA673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B096B24DE63D6005EA673 /* ViewController.swift */; };
+		248B096F24DE63D6005EA673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248B096D24DE63D6005EA673 /* Main.storyboard */; };
+		248B097124DE63DA005EA673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248B097024DE63DA005EA673 /* Assets.xcassets */; };
+		248B097424DE63DA005EA673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248B097224DE63DA005EA673 /* LaunchScreen.storyboard */; };
+		248B097F24DE63DB005EA673 /* NatureRemoAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B097E24DE63DB005EA673 /* NatureRemoAnalyticsTests.swift */; };
+		248B098A24DE63DB005EA673 /* NatureRemoAnalyticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B098924DE63DB005EA673 /* NatureRemoAnalyticsUITests.swift */; };
+		248B099824DE89E0005EA673 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B099724DE89E0005EA673 /* Response.swift */; };
+		24C22AF124DEE4840023744B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C22AF024DEE4840023744B /* WidgetKit.framework */; };
+		24C22AF324DEE4840023744B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C22AF224DEE4840023744B /* SwiftUI.framework */; };
+		24C22AF624DEE4840023744B /* NatureRemoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C22AF524DEE4840023744B /* NatureRemoWidget.swift */; };
+		24C22AF924DEE48A0023744B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C22AF824DEE48A0023744B /* Assets.xcassets */; };
+		24C22AFB24DEE48A0023744B /* NatureRemoWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 24C22AF724DEE4840023744B /* NatureRemoWidget.intentdefinition */; };
+		24C22AFC24DEE48A0023744B /* NatureRemoWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 24C22AF724DEE4840023744B /* NatureRemoWidget.intentdefinition */; };
+		24C22AFF24DEE48A0023744B /* NatureRemoWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24C22AEE24DEE4840023744B /* NatureRemoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24ECCBD32543277000B13143 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ECCBD22543277000B13143 /* Weather.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248B097B24DE63DB005EA673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248B095C24DE63D6005EA673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248B096324DE63D6005EA673;
+			remoteInfo = NatureRemoAnalytics;
+		};
+		248B098624DE63DB005EA673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248B095C24DE63D6005EA673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248B096324DE63D6005EA673;
+			remoteInfo = NatureRemoAnalytics;
+		};
+		24C22AFD24DEE48A0023744B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248B095C24DE63D6005EA673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C22AED24DEE4840023744B;
+			remoteInfo = NatureRemoWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24C22B0024DEE48A0023744B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				24C22AFF24DEE48A0023744B /* NatureRemoWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		248B096424DE63D6005EA673 /* NatureRemoAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureRemoAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		248B096724DE63D6005EA673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		248B096924DE63D6005EA673 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		248B096B24DE63D6005EA673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		248B096E24DE63D6005EA673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		248B097024DE63DA005EA673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		248B097324DE63DA005EA673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		248B097524DE63DB005EA673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248B097A24DE63DB005EA673 /* NatureRemoAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureRemoAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248B097E24DE63DB005EA673 /* NatureRemoAnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureRemoAnalyticsTests.swift; sourceTree = "<group>"; };
+		248B098024DE63DB005EA673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248B098524DE63DB005EA673 /* NatureRemoAnalyticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureRemoAnalyticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248B098924DE63DB005EA673 /* NatureRemoAnalyticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureRemoAnalyticsUITests.swift; sourceTree = "<group>"; };
+		248B098B24DE63DB005EA673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248B099724DE89E0005EA673 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		24C22AEE24DEE4840023744B /* NatureRemoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NatureRemoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C22AF024DEE4840023744B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		24C22AF224DEE4840023744B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		24C22AF524DEE4840023744B /* NatureRemoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureRemoWidget.swift; sourceTree = "<group>"; };
+		24C22AF724DEE4840023744B /* NatureRemoWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = NatureRemoWidget.intentdefinition; sourceTree = "<group>"; };
+		24C22AF824DEE48A0023744B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C22AFA24DEE48A0023744B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24ECCBD22543277000B13143 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248B096124DE63D6005EA673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248B097724DE63DB005EA673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248B098224DE63DB005EA673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C22AEB24DEE4840023744B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C22AF324DEE4840023744B /* SwiftUI.framework in Frameworks */,
+				24C22AF124DEE4840023744B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248B095B24DE63D6005EA673 = {
+			isa = PBXGroup;
+			children = (
+				248B096624DE63D6005EA673 /* NatureRemoAnalytics */,
+				248B097D24DE63DB005EA673 /* NatureRemoAnalyticsTests */,
+				248B098824DE63DB005EA673 /* NatureRemoAnalyticsUITests */,
+				24C22AF424DEE4840023744B /* NatureRemoWidget */,
+				24C22AEF24DEE4840023744B /* Frameworks */,
+				248B096524DE63D6005EA673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		248B096524DE63D6005EA673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248B096424DE63D6005EA673 /* NatureRemoAnalytics.app */,
+				248B097A24DE63DB005EA673 /* NatureRemoAnalyticsTests.xctest */,
+				248B098524DE63DB005EA673 /* NatureRemoAnalyticsUITests.xctest */,
+				24C22AEE24DEE4840023744B /* NatureRemoWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248B096624DE63D6005EA673 /* NatureRemoAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				248B096724DE63D6005EA673 /* AppDelegate.swift */,
+				248B096924DE63D6005EA673 /* SceneDelegate.swift */,
+				248B096B24DE63D6005EA673 /* ViewController.swift */,
+				248B096D24DE63D6005EA673 /* Main.storyboard */,
+				248B097024DE63DA005EA673 /* Assets.xcassets */,
+				248B097224DE63DA005EA673 /* LaunchScreen.storyboard */,
+				248B097524DE63DB005EA673 /* Info.plist */,
+				248B099724DE89E0005EA673 /* Response.swift */,
+				24ECCBD22543277000B13143 /* Weather.swift */,
+			);
+			path = NatureRemoAnalytics;
+			sourceTree = "<group>";
+		};
+		248B097D24DE63DB005EA673 /* NatureRemoAnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				248B097E24DE63DB005EA673 /* NatureRemoAnalyticsTests.swift */,
+				248B098024DE63DB005EA673 /* Info.plist */,
+			);
+			path = NatureRemoAnalyticsTests;
+			sourceTree = "<group>";
+		};
+		248B098824DE63DB005EA673 /* NatureRemoAnalyticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				248B098924DE63DB005EA673 /* NatureRemoAnalyticsUITests.swift */,
+				248B098B24DE63DB005EA673 /* Info.plist */,
+			);
+			path = NatureRemoAnalyticsUITests;
+			sourceTree = "<group>";
+		};
+		24C22AEF24DEE4840023744B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24C22AF024DEE4840023744B /* WidgetKit.framework */,
+				24C22AF224DEE4840023744B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24C22AF424DEE4840023744B /* NatureRemoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				24C22AF524DEE4840023744B /* NatureRemoWidget.swift */,
+				24C22AF724DEE4840023744B /* NatureRemoWidget.intentdefinition */,
+				24C22AF824DEE48A0023744B /* Assets.xcassets */,
+				24C22AFA24DEE48A0023744B /* Info.plist */,
+			);
+			path = NatureRemoWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248B096324DE63D6005EA673 /* NatureRemoAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248B098E24DE63DB005EA673 /* Build configuration list for PBXNativeTarget "NatureRemoAnalytics" */;
+			buildPhases = (
+				248B096024DE63D6005EA673 /* Sources */,
+				248B096124DE63D6005EA673 /* Frameworks */,
+				248B096224DE63D6005EA673 /* Resources */,
+				24C22B0024DEE48A0023744B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C22AFE24DEE48A0023744B /* PBXTargetDependency */,
+			);
+			name = NatureRemoAnalytics;
+			productName = NatureRemoAnalytics;
+			productReference = 248B096424DE63D6005EA673 /* NatureRemoAnalytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		248B097924DE63DB005EA673 /* NatureRemoAnalyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248B099124DE63DB005EA673 /* Build configuration list for PBXNativeTarget "NatureRemoAnalyticsTests" */;
+			buildPhases = (
+				248B097624DE63DB005EA673 /* Sources */,
+				248B097724DE63DB005EA673 /* Frameworks */,
+				248B097824DE63DB005EA673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248B097C24DE63DB005EA673 /* PBXTargetDependency */,
+			);
+			name = NatureRemoAnalyticsTests;
+			productName = NatureRemoAnalyticsTests;
+			productReference = 248B097A24DE63DB005EA673 /* NatureRemoAnalyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		248B098424DE63DB005EA673 /* NatureRemoAnalyticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248B099424DE63DB005EA673 /* Build configuration list for PBXNativeTarget "NatureRemoAnalyticsUITests" */;
+			buildPhases = (
+				248B098124DE63DB005EA673 /* Sources */,
+				248B098224DE63DB005EA673 /* Frameworks */,
+				248B098324DE63DB005EA673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248B098724DE63DB005EA673 /* PBXTargetDependency */,
+			);
+			name = NatureRemoAnalyticsUITests;
+			productName = NatureRemoAnalyticsUITests;
+			productReference = 248B098524DE63DB005EA673 /* NatureRemoAnalyticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		24C22AED24DEE4840023744B /* NatureRemoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C22B0324DEE48A0023744B /* Build configuration list for PBXNativeTarget "NatureRemoWidgetExtension" */;
+			buildPhases = (
+				24C22AEA24DEE4840023744B /* Sources */,
+				24C22AEB24DEE4840023744B /* Frameworks */,
+				24C22AEC24DEE4840023744B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NatureRemoWidgetExtension;
+			productName = NatureRemoWidgetExtension;
+			productReference = 24C22AEE24DEE4840023744B /* NatureRemoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248B095C24DE63D6005EA673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					248B096324DE63D6005EA673 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					248B097924DE63DB005EA673 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 248B096324DE63D6005EA673;
+					};
+					248B098424DE63DB005EA673 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 248B096324DE63D6005EA673;
+					};
+					24C22AED24DEE4840023744B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 248B095F24DE63D6005EA673 /* Build configuration list for PBXProject "NatureRemoAnalytics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 248B095B24DE63D6005EA673;
+			productRefGroup = 248B096524DE63D6005EA673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248B096324DE63D6005EA673 /* NatureRemoAnalytics */,
+				248B097924DE63DB005EA673 /* NatureRemoAnalyticsTests */,
+				248B098424DE63DB005EA673 /* NatureRemoAnalyticsUITests */,
+				24C22AED24DEE4840023744B /* NatureRemoWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248B096224DE63D6005EA673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248B097424DE63DA005EA673 /* LaunchScreen.storyboard in Resources */,
+				248B097124DE63DA005EA673 /* Assets.xcassets in Resources */,
+				248B096F24DE63D6005EA673 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248B097824DE63DB005EA673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248B098324DE63DB005EA673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C22AEC24DEE4840023744B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C22AF924DEE48A0023744B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248B096024DE63D6005EA673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C22AFC24DEE48A0023744B /* NatureRemoWidget.intentdefinition in Sources */,
+				248B099824DE89E0005EA673 /* Response.swift in Sources */,
+				248B096C24DE63D6005EA673 /* ViewController.swift in Sources */,
+				248B096824DE63D6005EA673 /* AppDelegate.swift in Sources */,
+				24ECCBD32543277000B13143 /* Weather.swift in Sources */,
+				248B096A24DE63D6005EA673 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248B097624DE63DB005EA673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248B097F24DE63DB005EA673 /* NatureRemoAnalyticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248B098124DE63DB005EA673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248B098A24DE63DB005EA673 /* NatureRemoAnalyticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C22AEA24DEE4840023744B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C22AFB24DEE48A0023744B /* NatureRemoWidget.intentdefinition in Sources */,
+				24C22AF624DEE4840023744B /* NatureRemoWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		248B097C24DE63DB005EA673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248B096324DE63D6005EA673 /* NatureRemoAnalytics */;
+			targetProxy = 248B097B24DE63DB005EA673 /* PBXContainerItemProxy */;
+		};
+		248B098724DE63DB005EA673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248B096324DE63D6005EA673 /* NatureRemoAnalytics */;
+			targetProxy = 248B098624DE63DB005EA673 /* PBXContainerItemProxy */;
+		};
+		24C22AFE24DEE48A0023744B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C22AED24DEE4840023744B /* NatureRemoWidgetExtension */;
+			targetProxy = 24C22AFD24DEE48A0023744B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		248B096D24DE63D6005EA673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248B096E24DE63D6005EA673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		248B097224DE63DA005EA673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248B097324DE63DA005EA673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248B098C24DE63DB005EA673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		248B098D24DE63DB005EA673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		248B098F24DE63DB005EA673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = NatureRemoAnalytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		248B099024DE63DB005EA673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = NatureRemoAnalytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		248B099224DE63DB005EA673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = NatureRemoAnalyticsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatureRemoAnalytics.app/NatureRemoAnalytics";
+			};
+			name = Debug;
+		};
+		248B099324DE63DB005EA673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = NatureRemoAnalyticsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatureRemoAnalytics.app/NatureRemoAnalytics";
+			};
+			name = Release;
+		};
+		248B099524DE63DB005EA673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = NatureRemoAnalyticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalyticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NatureRemoAnalytics;
+			};
+			name = Debug;
+		};
+		248B099624DE63DB005EA673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = NatureRemoAnalyticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalyticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NatureRemoAnalytics;
+			};
+			name = Release;
+		};
+		24C22B0124DEE48A0023744B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = NatureRemoWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalytics.NatureRemoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C22B0224DEE48A0023744B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = NatureRemoWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.NatureRemoAnalytics.NatureRemoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248B095F24DE63D6005EA673 /* Build configuration list for PBXProject "NatureRemoAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248B098C24DE63DB005EA673 /* Debug */,
+				248B098D24DE63DB005EA673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248B098E24DE63DB005EA673 /* Build configuration list for PBXNativeTarget "NatureRemoAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248B098F24DE63DB005EA673 /* Debug */,
+				248B099024DE63DB005EA673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248B099124DE63DB005EA673 /* Build configuration list for PBXNativeTarget "NatureRemoAnalyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248B099224DE63DB005EA673 /* Debug */,
+				248B099324DE63DB005EA673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248B099424DE63DB005EA673 /* Build configuration list for PBXNativeTarget "NatureRemoAnalyticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248B099524DE63DB005EA673 /* Debug */,
+				248B099624DE63DB005EA673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C22B0324DEE48A0023744B /* Build configuration list for PBXNativeTarget "NatureRemoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C22B0124DEE48A0023744B /* Debug */,
+				24C22B0224DEE48A0023744B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 248B095C24DE63D6005EA673 /* Project object */;
+}
