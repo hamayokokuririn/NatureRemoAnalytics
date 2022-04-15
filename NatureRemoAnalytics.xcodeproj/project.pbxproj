@@ -25,6 +25,8 @@
 		248B097F24DE63DB005EA673 /* NatureRemoAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B097E24DE63DB005EA673 /* NatureRemoAnalyticsTests.swift */; };
 		248B098A24DE63DB005EA673 /* NatureRemoAnalyticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B098924DE63DB005EA673 /* NatureRemoAnalyticsUITests.swift */; };
 		248B099824DE89E0005EA673 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B099724DE89E0005EA673 /* Response.swift */; };
+		249434D728095E1000D1C4D4 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249434D628095E1000D1C4D4 /* APIKey.swift */; };
+		249434D928095E5200D1C4D4 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249434D828095E5200D1C4D4 /* Downloader.swift */; };
 		24C22AF124DEE4840023744B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C22AF024DEE4840023744B /* WidgetKit.framework */; };
 		24C22AF324DEE4840023744B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C22AF224DEE4840023744B /* SwiftUI.framework */; };
 		24C22AF624DEE4840023744B /* NatureRemoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C22AF524DEE4840023744B /* NatureRemoWidget.swift */; };
@@ -136,6 +138,8 @@
 		248B098924DE63DB005EA673 /* NatureRemoAnalyticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureRemoAnalyticsUITests.swift; sourceTree = "<group>"; };
 		248B098B24DE63DB005EA673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		248B099724DE89E0005EA673 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		249434D628095E1000D1C4D4 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		249434D828095E5200D1C4D4 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		24C22AEE24DEE4840023744B /* NatureRemoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NatureRemoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C22AF024DEE4840023744B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		24C22AF224DEE4840023744B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -249,6 +253,8 @@
 				248B097524DE63DB005EA673 /* Info.plist */,
 				248B099724DE89E0005EA673 /* Response.swift */,
 				24ECCBD22543277000B13143 /* Weather.swift */,
+				249434D628095E1000D1C4D4 /* APIKey.swift */,
+				249434D828095E5200D1C4D4 /* Downloader.swift */,
 			);
 			path = NatureRemoAnalytics;
 			sourceTree = "<group>";
@@ -525,6 +531,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C22AFC24DEE48A0023744B /* NatureRemoWidget.intentdefinition in Sources */,
+				249434D728095E1000D1C4D4 /* APIKey.swift in Sources */,
+				249434D928095E5200D1C4D4 /* Downloader.swift in Sources */,
 				248B099824DE89E0005EA673 /* Response.swift in Sources */,
 				248B096C24DE63D6005EA673 /* ViewController.swift in Sources */,
 				248B096824DE63D6005EA673 /* AppDelegate.swift in Sources */,

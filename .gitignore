@@ -26,3 +26,5 @@ Pods/*
 *.swp
 !.gitkeep
 .DS_Store
+
+NatureRemoAnalytics/APIKey.swift
