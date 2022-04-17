@@ -65,7 +65,7 @@ class ViewController: UIViewController {
                 case .finished:
                     print("weather finish")
                 case .failure(let e):
-                    self.errorText(e.localizedDescription)
+                    self.errorTextAtWeather(e.localizedDescription)
                 }
             }, receiveValue: { weather in
                 self.weather.text = weather.weather.first!.main
@@ -96,6 +96,12 @@ class ViewController: UIViewController {
         DispatchQueue.main.async {
             self.natureStatus.text = "error text: " + text
             self.natureStatus.sizeToFit()
+        }
+    }
+    
+    private func errorTextAtWeather(_ text: String) {
+        DispatchQueue.main.async {
+            self.weatherStatus.text = "error text: " + text
         }
     }
 
